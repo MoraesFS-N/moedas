@@ -30,6 +30,7 @@ document.querySelector('.form').addEventListener('submit', (event) => {
     campos[2].value = 0;
 
     campos[1].focus();
- 
+    
+    console.log(Map.campos)
 });
 

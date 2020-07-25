@@ -3,5 +3,6 @@ class Negociacao {
         this.data = new Date();
         this.quantidade;
         this.valor;
+        this.teste;
     }
 }

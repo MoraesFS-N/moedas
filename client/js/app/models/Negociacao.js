@@ -1,12 +1,13 @@
 class Negociacao {
     // a convenção _ (underline) não permite que o valor seja modificado fora da classe 
     constructor(data,quantidade,valor){
-        this._data = new Date(data.getTime());
+        this._data = new Date();
         this._quantidade = quantidade;
         this._valor =valor;
 
         Object.freeze(this);
     }
+
 
     get volume() {
         return this._quantidade * this._valor;    

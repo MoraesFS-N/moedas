@@ -16,7 +16,7 @@ class NegociacaoController{
         // expressão regular, a linha abaixo diz: replace(/-/g) = para tudo(g) que tiver traço(-)
         // substitua por vírgula (',') 
         //let data = new Date(this._inputData.value.split(/-/g, ','))
-        //...spread operator, desmenbramento de array e iteração com o map para resolver o problema de decremntação do mês
+        //...spread operator, desmenbramento de array e iteração com o map para resolver o problema de decrementação do mês
 
         let data = new Date(
             ...this._inputData.value.split('-').map((item, indice) =>

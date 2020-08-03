@@ -10,7 +10,6 @@ class NegociacaoController{
 
     }
 
-
     adiciona(event){
         event.preventDefault();
         // expressão regular, a linha abaixo diz: replace(/-/g) = para tudo(g) que tiver traço(-)

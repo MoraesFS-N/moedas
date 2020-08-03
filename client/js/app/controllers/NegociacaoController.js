@@ -24,8 +24,5 @@ class NegociacaoController{
             this._inputQuantidade.value,
             this._inputValor.value
         );
-        
-        
-
     }
 }
